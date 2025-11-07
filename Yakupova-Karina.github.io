@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме Разработчика</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключите ваш CSS файл -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .skills, .experience, .education {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .experience li, .education li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Якупова Карина</h1>
+    <p>Админимтратор | Программист | Студент</p>
+</header>
+
+<section class="contact-info">
+    <h2>Контактная информация</h2>
+    <p>Email: 4455667d@gmail.com</p>
+    <p>Телефон: +7 (917) 753-35-52</p>
+    <p>GitHub: <a href="https://github.com/Якупова_Карина" target="_blank">github.com/Якупова_Карина</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/Yakupova_Karina" target="_blank">linkedin.com/in/Yakupova_Karina</a></p>
+</section>
+
+<section class="skills">
+    <h2>Навыки</h2>
+    <ul>
+        <li>Python, C++, Коммуникабельность, Ответственность</li>
+    </ul>
+</section>
+
+<section class="experience">
+    <h2>Опыт работы</h2>
+    <ul>
+        <li><strong>Компания МТС</strong> — Оператор CALL-Центра ( 2022 - 2024 )</li>
+        <li><strong>Компания Zarina</strong> — Администратор ( 2024 - Настоящее время )</li>
+    </ul>
+</section>
+
+<section class="education">
+    <h2>Образование</h2>
+    <ul>
+        <li><strong>Уфимский Нефтяной Государственный Университет</strong> — Бакалавр в области прикладной информатики (2024 - 2028)</li>
+    </ul>
+</section>
+
+<footer style="text-align:center; margin-top:20px;">
+    <p>&copy; 2023 Якупова Карина. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
